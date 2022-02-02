@@ -14,6 +14,6 @@
 -	Directed the quality management resort and supervised 17 consultant projects as managing director
 -	Managed two consultant projects for the conduction of a competitive analysis (for AUDI AG) and process development (for MAUS Seminare gGmbH)
 
-### <span class="right">AUDI AG, Internship</span><span class="left">08/2017 – 02/2018</span>
+### <span class="right">AUDI AG, Internship </span><span class="left">08/2017 – 02/2018</span>
 -	Supported the project manager in the process and development of a new R&D strategy 
 -	Prepared meetings, presentations, and reports up to the board of directors
