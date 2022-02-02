@@ -6,7 +6,7 @@
 
 ## Work Experience
 
-<p><b><span class="right">Applied AI Lab (KIT), Junior Researcher </span><span class="left">04/2020 – present</span></b></p>
+### <p><b><span class="right">Applied AI Lab (KIT), Junior Researcher </span><span class="left">04/2020 – present</span></b></p>
 -	Researching about Human-Computer Collaboration and Few-shot Learning with publications in press
 -	Working on a project for AI Applications in the construction domain
 
