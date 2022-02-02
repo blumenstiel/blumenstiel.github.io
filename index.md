@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Benedikt Blumenstiel
 
-You can use the [editor on GitHub](https://github.com/blumenstiel/blumenstiel.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <b>Page under construction</b>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Work Experience
 
-### Markdown
+### <span class="right">Applied AI Lab (KIT), Junior Researcher </span><span class="left">04/2020 – present</span>
+-	Researching about Human-Computer Collaboration and Few-shot Learning with publications in press
+-	Working on a project for AI Applications in the construction domain
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### <span class="right">delta Karlsruhe GmbH, Managing Director and Project Manager </span><span class="left">05/2018 – 03/2020</span>
+-	Directed the quality management resort and supervised 17 consultant projects as managing director
+-	Managed two consultant projects for the conduction of a competitive analysis (for AUDI AG) and process development (for MAUS Seminare gGmbH)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/blumenstiel/blumenstiel.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### <span class="right">AUDI AG, Internship</span><span class="left">08/2017 – 02/2018</span>
+-	Supported the project manager in the process and development of a new R&D strategy 
+-	Prepared meetings, presentations, and reports up to the board of directors
