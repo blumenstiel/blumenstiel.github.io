@@ -1,114 +1,96 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Benedikt Blumenstiel - CV</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-	<header>
-		<h1>Benedikt Blumenstiel</h1>
-		<h2>M.Sc. Information Systems</h2>
-	</header>
-	<main>
-		<section id="contact">
-			<h3>Contact Information</h3>
-			<ul>
-				<li><a href="https://github.com/blumenstiel/">GitHub</a></li>
-				<li><a href="https://www.linkedin.com/in/benedikt-blumenstiel/">LinkedIn</a></li>
-				
-			</ul>
-		</section>
-		<section id="profile">
-			<h3>Profile</h3>
-			<p>I am an open-minded person with good analytical thinking and a wide curiosity for machine learning, innovation and UX/UI. During my studies, I focused mainly on projects in computer vision, as well as natural language processing and time series forecasting. After working in academic research for two years and now writing my Master’s thesis, I am looking for new experiences preferably at the intersection of machine learning research and sustainability/climate impact.</p>
-		</section>
-		<section id="experience">
-			<h3>Machine Learning Experience</h3>
-			<p>Selected projects:</p>
-			<ul>
-				<li>Generalization benchmark for Open-Vocabulary Semantic Segmentation evaluating models like OVSeg or ZegFormer on specialized downstream tasks like satellite imagery (Master’s thesis)</li>
-				<li>Object detection in construction plans using Faster-RCNN and Tensorflow</li>
-				<li>Extremity X-ray image classification with Vision Transformers using PyTorch</li>
-				<li>Electricity grid load forecasting with AutoML frameworks including NeuralProphet and Vertex AI</li>
-				<li>Topic modeling of scientific paper using nltk and genism (Bachelor’s thesis)</li>
-			</ul>
-		</section>
-		<section id="work">
-			<h3>Work Experience</h3>
-			<h4>IISM/KSRI (KIT),Junior Researcher in the Applied AI in Services Lab 05/2020 – 04/2022</h4>
-			<ul>
-				<li>Research about human-AI collaboration and machine learning, with a focus on few-shot learning</li>
-				<li>Developed AI applications for a government funded AI project in the AEC industry (“SDaC”)</li>
-				<li>Worked with SOTA computer vision models and deployed them on high performance clusters</li>
-			</ul>
-			<h4>KIT & HUK Coburg, Service Design Thinking project 10/2019 – 06/2020</h4>
-    <section id="education">
-      <h2>Education</h2>
-      <div class="row">
-        <div class="col-md-4 col-sm-12">
-          <h3 class="degree">M.Sc. Information Systems</h3>
-          <div class="university">Karlsruhe Institute of Technology (KIT)</div>
-          <div class="graduation-date">Expected graduation: 2023</div>
-          <div class="description">Focus on machine learning and service innovation</div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <h3 class="degree">Semester abroad</h3>
-          <div class="university">Norwegian University of Science and Technology</div>
-          <div class="graduation-date">Fall 2021</div>
-          <div class="description">Courses in computer vision, natural language processing and statistics</div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <h3 class="degree">B.Sc. Industrial Engineering and Management</h3>
-          <div class="university">Karlsruhe Institute of Technology (KIT)</div>
-          <div class="graduation-date">2019</div>
-          <div class="description">Focus on digital services and business strategy</div>
-        </div>
-      </div>
-    </section>
-    
-    <section id="publications">
-      <h2>Publications</h2>
-      <div class="publication">
-        <h3 class="title">Designing a Human-in-the-Loop System for Object Detection in Floor Plans</h3>
-        <div class="authors">Jakubik, J., Hemmer, P., Voessing, M., Blumenstiel, B., Bartos, A., &amp; Mohr, K.</div>
-        <div class="conference">Proceedings of the AAAI Conference on Artificial Intelligence, 2022</div>
-      </div>
-      <div class="publication">
-        <h3 class="title">Instance Selection Mechanisms for Human-in-the-Loop Systems in Few-Shot Learning</h3>
-        <div class="authors">Jakubik, J., Blumenstiel, B., Voessing, M., &amp; Hemmer, P.</div>
-        <div class="conference">International Conference on Wirtschaftsinformatik, 2022</div>
-      </div>
-    </section>
-    
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skill-category">
-        <h3 class="category-name">Programming Languages</h3>
-        <ul>
-          <li>Python</li>
-          <li>Java (Basics)</li>
-          <li>SQL (Basics)</li>
-          <li>R (Basics)</li>
-          <li>Docker (Basics)</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3 class="category-name">Machine Learning</h3>
-        <ul>
-          <li>Computer Vision</li>
-          <li>Natural Language Processing</li>
-          <li>Time Series Forecasting</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3 class="category-name">Other Skills</h3>
-        <ul>
-          <li>Design Thinking</li>
-          <li>Project Management</li>
-        </ul>
-      </div>  
-    </section>          
-	<main>
-<body>
+---
+layout: default
+---
+
+<div class="teaserimage">
+    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
+        Teaser Image
+    </div>
+</div>
+
+<header class="blog-header">
+    {% if site.logo %}
+      <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+    {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+    </div>
+</header>
+
+
+<main class="content" role="main">
+
+    <!--
+    {% if site.tags.featured %}
+    <h5 class="index-headline featured"><span>Featured</span></h5>
+
+    <div class="container featured">
+      {% for post in site.tags.featured %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+              <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+    -->
+
+    <h5 class="index-headline normal"><span>Projects</span></h5>
+    {% endif %}
+
+    <div class="cf frame">
+      {% for post in paginator.posts %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+
+    <nav class="pagination" role="navigation">
+      {% if paginator.next_page %}
+        <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>&larr; Older posts</a>
+      {% endif %}
+      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.previous_page %}
+        {% if paginator.page == 2 %}
+          <a class="older-posts" href={{ "/" | prepend: site.baseurl }}>Newer posts &rarr;</a>
+        {% else %}
+          <a class="older-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.previous_page }}>Newer posts &rarr;</a>
+        {% endif %}
+      {% endif %}
+    </nav>
+
+
+    <!-- {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}} -->
+
+</main>
