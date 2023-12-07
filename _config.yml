@@ -67,15 +67,15 @@ social:
 
 # Resume
 aboutme:
-  - Hello! I'm Benedikt — an open-minded individual passionate about machine learning, innovation, sustainability. I focused on computer vision, natural language processing, and time series forecasting during my studies. Now at IBM Research, I contribute to the Team AI for Climate Impact and delve into MLOps. Eager to connect and share experiences in the intersection of machine learning research and sustainability.
+  - Hello! I'm Benedikt — an open-minded individual passionate about machine learning, innovation, sustainability. During my studies, I focused on computer vision, natural language processing, and time series forecasting. Now at IBM Research, I contribute to the Team AI for Climate Impact and delve into MLOps. Eager to connect and share experiences in the intersection of machine learning research and sustainability.
   - Looking forward to connect with you!
 
 selected:
   - title: MESS Benchmark
-    text: Holistic benchmarks enable a robust quantitative comparison of model architectures. However, such evaluation practice covering a wide range of real-world applications is lacking for multi-modal (i.e., text-to-image) zero-shot semantic segmentation tasks. Thus, our motivation to compose the <b>Multi-domain Evaluation of Semantic Segmentation (MESS)</b> benchmark consisting of 22 datasets for varying application domains. You find more information at our <a href=https://blumenstiel.github.io/mess-benchmark>website</a>.
+    text: Holistic benchmarks allow a robust quantitative comparison of model architectures. However, such evaluation practice covering a wide range of real-world applications is lacking for multi-modal (i.e., text-to-image) zero-shot semantic segmentation tasks. Thus, our motivation to compose the <b>Multi-domain Evaluation of Semantic Segmentation (MESS)</b> benchmark, which consists of 22 datasets for varying application domains. More details can be found on our <a href=https://blumenstiel.github.io/mess-benchmark>website</a>.
     url: https://blumenstiel.github.io/mess-benchmark/
   - title: CLAIMED Component Compiler (C3)
-    text: The <a href=https://claimed-framework.github.io>CLAIMED</a> framework enables rapid development and deployment of processing steps, e.g. for data pre-processing in deep learning. Utilizing the CLAIMED Component Compiler (C3), components can be effortlessly built from a python script or notebook and deployed on KubeFlow, Kubernetes, or locally via CLI. Notably, C3 eliminates the need for Docker or Kubernetes expertise, making it accessible for every data scientist to deploy code on clusters. Check out the <a href=https://github.com/claimed-framework/c3/blob/main/GettingStarted.md>Getting Started</a> page for more information.
+    text: The <a href=https://claimed-framework.github.io>CLAIMED</a> framework enables rapid development and deployment of processing steps, e.g. for data preprocessing in deep learning. Using the CLAIMED Component Compiler (C3), components can be easily built from a Python script or notebook and deployed on KubeFlow, Kubernetes, or locally via CLI. Notably, C3 eliminates the need for Docker or Kubernetes expertise, making it accessible to any data scientist to deploy code on clusters. Check out the <a href=https://github.com/claimed-framework/c3/blob/main/GettingStarted.md>Getting Started</a> page for more information.
     url: https://github.com/claimed-framework/c3/blob/main/GettingStarted.md
 
 projects:
@@ -90,25 +90,25 @@ work:
     time: 08/2023 - present
     tasks:
       - Deploying and Applying MLOps tools and pipelines
-      - Developing the data pipeline for a geospatial ML platform
+      - Developing the data pipeline for a geospatial ML platform and the foundation model pretraining
       - Developing the CLAIMED Component Compiler (C3) for the CLAIMED project
 
-  - title: Junior Research, Applied AI in Services Lab, KIT
-    time: 05/2020 – 04/2022
+  - title: Junior Researcher, Applied AI in Services Lab, KIT
+    time: 05/2020 - 04/2022
     tasks:
       - Research about human-AI collaboration and machine learning, with a focus on few-shot learning
-      - Developed AI applications for a government funded AI project in the AEC industry
-      - Worked with SOTA computer vision models and deployed them on high performance clusters
+      - Developed AI applications for a AI project in the AEC industry
+      - Worked with multiple computer vision models and deployed them on high performance clusters
 
   - title: Design Thinking project, KIT & HUK Coburg
     time: 10/2019 - 06/2020
     tasks:
-      - Used Design Thinking to develop user-centered innovations and prototypes for retirement saving
+      - Used design thinking to develop user-centered innovations and prototypes for retirement saving
 
-  - title: Intern, R&D strategy, AUDI AG
+  - title: Intern, R&D Strategy, AUDI AG
     time: 07/2017 - 02/2018
     tasks:
-      - Supported the project manager in the definition of a new technology-focused R&D strategy
+      - Supported the project manager in defining a new technology-focused R&D strategy
       - Worked in the project management office of an R&D transformation project
 
 
@@ -116,15 +116,15 @@ education:
   - title: M.Sc. Information Systems, Karlsruhe Institute of Technology
     time: 10/2019 - 04/2023
     text:
-      - Focused on machine learning and service innovation
+      - Focus on machine learning and service innovation
 
-  - title: Semester abroad, Norwegian University of Science and Technology
-    time: 01/2021 – 06/2021
+  - title: Exchange, Norwegian University of Science and Technology
+    time: 01/2021 - 06/2021
     text:
       - Courses in computer vision, natural language processing and statistics
 
   - title: B.Sc. Industrial Engineering, Karlsruhe Institute of Technology
-    time: 10/2015 – 09/2019
+    time: 10/2015 - 09/2019
     text:
       - Focus on digital services and business strategy
 
