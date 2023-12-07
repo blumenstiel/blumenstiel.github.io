@@ -6,7 +6,7 @@ gems:
 # Site settings
 title: "Benedikt Blumenstiel"
 description: > # this means to ignore newlines until "email:"
-   Intern at AI for Climate Impact | IBM Research | Based in Zurich
+   AI for Climate Impact, IBM Research | Based in Zurich
 
 email: benedikt.blumenstiel@live.com
 #blog logo
@@ -26,7 +26,7 @@ paginate:	5
 url: "blumenstiel.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-# twitter_handle: '@dirkfabisch'
+# twitter_handle: '@beneblumenstiel'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -50,14 +50,14 @@ social:
     share_link:
 
   - icon:	linkedin
-    url:	https://github.com/blumenstiel
+    url:	https://www.linkedin.com/in/blumenstiel/
     desc:	LinkedIn
     share_url:
     share_title:
     share_link:
 
-  - icon:	scholar
-    url:	https://github.com/blumenstiel
+  - icon:	google
+    url:	https://scholar.google.com/citations?user=UGynAs4AAAAJ&hl=de
     desc:	Google Scholar
     share_url:
     share_title:

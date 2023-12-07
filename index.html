@@ -15,6 +15,7 @@ layout: default
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
     <div class="custom-links">
+      &nbsp;&nbsp;·&nbsp;&nbsp;
       {% for social in site.social %}
         {% if social.url %}
             <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
@@ -29,7 +30,90 @@ layout: default
 
 <main class="content" role="main">
 
-    <!--
+    <h5 class="index-headline normal"><span>About me</span></h5>
+    <section class="post-excerpt" itemprop="description">
+        <p>Hi, I'm Benedikt. I am currently working on this website. <br>
+            Looking forward to connect with you!
+        </p>
+    </section><br>
+
+    <h5 class="index-headline normal"><span>Selected projects</span></h5>
+
+    <div class="cf frame">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title"><a href="https://blumenstiel.github.io/mess-benchmark/"> MESS Benchmark </a></h2>
+        </header>
+        <section>
+          <p>Multi-Domain Evaluation of Zero-Shot Semantic Segmentation.</p>
+        </section>
+      </div>
+      </article>
+
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title"><a href="https://claimed-framework.github.io"> CLAIMED Framework </a></h2>
+        </header>
+        <section>
+          <p>Currently working on the CLAIMED Component Compiler (C3).</p>
+        </section>
+      </div>
+      </article>
+    </div>
+
+
+    <h5 class="index-headline normal"><span>Résumé</span></h5>
+
+    <div class="cf frame">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title"><a> Work Experience </a></h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+            <p>IBM Research</p>
+
+            <p>KSRI</p>
+
+            <p>AUDI AG</p>
+        </section>
+      </div>
+      </article>
+
+
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title"><a> Education </a></h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+            <p>KIT</p>
+
+            <p>NTNU</p>
+
+            <p>KIT</p>
+        </section>
+      </div>
+      </article>
+
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title"><a> Publications </a></h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+            <p>NIPS</p>
+            <p>IAAI</p>
+            <p>WI</p>
+        </section>
+      </div>
+      </article>
+    </div>
+
+
+<!--
     {% if site.tags.featured %}
     <h5 class="index-headline featured"><span>Featured</span></h5>
 
@@ -51,7 +135,6 @@ layout: default
         </article>
       {% endfor %}
     </div>
-    -->
 
     <h5 class="index-headline normal"><span>Projects</span></h5>
     {% endif %}
@@ -68,13 +151,14 @@ layout: default
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
             </div>
           </div>
         </article>
       {% endfor %}
     </div>
-
+-->
+<!--
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
         <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>&larr; Older posts</a>
@@ -89,7 +173,7 @@ layout: default
       {% endif %}
     </nav>
 
-
+-->
     <!-- {{!! After all the posts, we have the previous/next pagination links }}
     {{pagination}} -->
 
