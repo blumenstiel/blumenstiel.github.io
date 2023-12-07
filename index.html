@@ -31,87 +31,116 @@ layout: default
 <main class="content" role="main">
 
     <h5 class="index-headline normal"><span>About me</span></h5>
-    <section class="post-excerpt" itemprop="description">
-        <p>Hi, I'm Benedikt. I am currently working on this website. <br>
-            Looking forward to connect with you!
-        </p>
+
+    <div>
+    <section>
+        {% for text in site.aboutme %}
+            <p align="justify">{{ text }}</p>
+        {% endfor %}
     </section><br>
+    </div>
 
     <h5 class="index-headline normal"><span>Selected projects</span></h5>
 
     <div class="cf frame">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      <div class="article-item">
-        <header class="post-header">
-          <h2 class="post-title"><a href="https://blumenstiel.github.io/mess-benchmark/"> MESS Benchmark </a></h2>
-        </header>
-        <section>
-          <p>Multi-Domain Evaluation of Zero-Shot Semantic Segmentation.</p>
-        </section>
-      </div>
-      </article>
+      {% for project in site.selected %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title"><a href={{ project.url }}>{{ project.title }}</a></h2>
+            </header>
+            <section>
+              <p align="justify">{{ project.text }}</p>
+            </section>
+          </div>
+        </article>
+      {% endfor %}
 
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      <div class="article-item">
-        <header class="post-header">
-          <h2 class="post-title"><a href="https://claimed-framework.github.io"> CLAIMED Framework </a></h2>
-        </header>
-        <section>
-          <p>Currently working on the CLAIMED Component Compiler (C3).</p>
-        </section>
-      </div>
-      </article>
     </div>
 
 
     <h5 class="index-headline normal"><span>Résumé</span></h5>
 
     <div class="cf frame">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+
+      <article class="post">
       <div class="article-item">
         <header class="post-header">
-          <h2 class="post-title"><a> Work Experience </a></h2>
+          <h2 class="post-title">Work Experience</h2>
         </header>
-        <section class="post-excerpt" itemprop="description">
-            <p>IBM Research</p>
-
-            <p>KSRI</p>
-
-            <p>AUDI AG</p>
-        </section>
+          <section>
+              {% for position in site.work %}
+                <div>
+                    <p style="float: left">{{ position.title }}</p>
+                    <p style="float: right; color: gray;">{{ position.time }}</p>
+                    <ul style="clear: both;">
+                        {% for task in position.tasks %}
+                            <li>{{ task }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+              {% endfor %}
+          </section>
       </div>
       </article>
 
-
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <article class="post">
       <div class="article-item">
         <header class="post-header">
-          <h2 class="post-title"><a> Education </a></h2>
+          <h2 class="post-title">Education</h2>
         </header>
-        <section class="post-excerpt" itemprop="description">
-            <p>KIT</p>
+          <section>
+              {% for study in site.education %}
+                <div>
+                    <p style="float: left">{{ study.title }}</p>
+                    <p style="float: right; color: gray;">{{ study.time }}</p>
+                    <ul style="clear: both;">
+                        {% for text in study.text %}
+                            <li>{{ text }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+              {% endfor %}
+          </section>
 
-            <p>NTNU</p>
-
-            <p>KIT</p>
-        </section>
       </div>
       </article>
 
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <article class="post">
       <div class="article-item">
         <header class="post-header">
-          <h2 class="post-title"><a> Publications </a></h2>
+          <h2 class="post-title">Publications</h2>
         </header>
-        <section class="post-excerpt" itemprop="description">
-            <p>NIPS</p>
-            <p>IAAI</p>
-            <p>WI</p>
-        </section>
+          <section>
+              {% for publication in site.publications %}
+                <div>
+                    <p align="justify"><a href="{{ publication.url | prepend: site.baseurl }}" itemprop="url"  style="color:black; text-decoration:none">{{ publication.text }}</a></p>
+                </div>
+              {% endfor %}
+          </section>
+
       </div>
       </article>
     </div>
 
+<!--
+    <article class="post">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title">Skills</h2>
+        </header>
+          <section>
+            <div>
+              Advanced: {{ site.skills.advanced }}
+            </div>
+            <div>
+              Basics: {{ site.skills.basic }}
+            </div>
+          </section>
+
+      </div>
+    </article>
+-->
 
 <!--
     {% if site.tags.featured %}

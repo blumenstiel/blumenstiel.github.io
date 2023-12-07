@@ -26,7 +26,7 @@ paginate:	5
 url: "blumenstiel.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-# twitter_handle: '@beneblumenstiel'
+twitter_handle: '@beneblumenstiel'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -35,12 +35,6 @@ baseurl: ""
 
 # social icons and sharing options
 social:
-#  - icon:	twitter
-#    url:	https://twitter.com/dirkfabisch
-#    desc: Follow me on twitter
-#    share_url: http://twitter.com/share
-#    share_title: ?text=
-#    share_link: "&amp;url="
 
   - icon:	github
     url:	https://github.com/blumenstiel
@@ -62,3 +56,88 @@ social:
     share_url:
     share_title:
     share_link:
+
+  - icon:	twitter
+    url:	https://twitter.com/beneblumenstiel
+    desc:   Twitter
+    share_url:
+    share_title:
+    share_link:
+
+
+# Resume
+aboutme:
+  - Hello! I'm Benedikt — an open-minded individual passionate about machine learning, innovation, sustainability. I focused on computer vision, natural language processing, and time series forecasting during my studies. Now at IBM Research, I contribute to the Team AI for Climate Impact and delve into MLOps. Eager to connect and share experiences in the intersection of machine learning research and sustainability.
+  - Looking forward to connect with you!
+
+selected:
+  - title: MESS Benchmark
+    text: Holistic benchmarks enable a robust quantitative comparison of model architectures. However, such evaluation practice covering a wide range of real-world applications is lacking for multi-modal (i.e., text-to-image) zero-shot semantic segmentation tasks. Thus, our motivation to compose the <b>Multi-domain Evaluation of Semantic Segmentation (MESS)</b> benchmark consisting of 22 datasets for varying application domains. You find more information at our <a href=https://blumenstiel.github.io/mess-benchmark>website</a>.
+    url: https://blumenstiel.github.io/mess-benchmark/
+  - title: CLAIMED Component Compiler (C3)
+    text: The <a href=https://claimed-framework.github.io>CLAIMED</a> framework enables rapid development and deployment of processing steps, e.g. for data pre-processing in deep learning. Utilizing the CLAIMED Component Compiler (C3), components can be effortlessly built from a python script or notebook and deployed on KubeFlow, Kubernetes, or locally via CLI. Notably, C3 eliminates the need for Docker or Kubernetes expertise, making it accessible for every data scientist to deploy code on clusters. Check out the <a href=https://github.com/claimed-framework/c3/blob/main/GettingStarted.md>Getting Started</a> page for more information.
+    url: https://github.com/claimed-framework/c3/blob/main/GettingStarted.md
+
+projects:
+  - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or ZegFormer on specialized downstream tasks like satellite imagery (Master’s thesis)
+  - Object detection in construction plans using Faster-RCNN and Tensorflow
+  - Extremity X-ray image classification with Vision Transformers using PyTorch
+  - Electricity grid load forecasting with AutoML frameworks including NeuralProphet and Vertex AI
+  - Topic modeling of scientific paper using nltk and genism (Bachelor’s thesis)
+
+work:
+  - title: Intern, AI for Climate Impact, IBM Research
+    time: 08/2023 - present
+    tasks:
+      - Deploying and Applying MLOps tools and pipelines
+      - Developing the data pipeline for a geospatial ML platform
+      - Developing the CLAIMED Component Compiler (C3) for the CLAIMED project
+
+  - title: Junior Research, Applied AI in Services Lab, KIT
+    time: 05/2020 – 04/2022
+    tasks:
+      - Research about human-AI collaboration and machine learning, with a focus on few-shot learning
+      - Developed AI applications for a government funded AI project in the AEC industry
+      - Worked with SOTA computer vision models and deployed them on high performance clusters
+
+  - title: Design Thinking project, KIT & HUK Coburg
+    time: 10/2019 - 06/2020
+    tasks:
+      - Used Design Thinking to develop user-centered innovations and prototypes for retirement saving
+
+  - title: Intern, R&D strategy, AUDI AG
+    time: 07/2017 - 02/2018
+    tasks:
+      - Supported the project manager in the definition of a new technology-focused R&D strategy
+      - Worked in the project management office of an R&D transformation project
+
+
+education:
+  - title: M.Sc. Information Systems, Karlsruhe Institute of Technology
+    time: 10/2019 - 04/2023
+    text:
+      - Focused on machine learning and service innovation
+
+  - title: Semester abroad, Norwegian University of Science and Technology
+    time: 01/2021 – 06/2021
+    text:
+      - Courses in computer vision, natural language processing and statistics
+
+  - title: B.Sc. Industrial Engineering, Karlsruhe Institute of Technology
+    time: 10/2015 – 09/2019
+    text:
+      - Focus on digital services and business strategy
+
+publications:
+  - text: "Blumenstiel, B., Jakubik, J., Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. <i>Advances in Neural Information Processing Systems.</i>"
+    url: "https://arxiv.org/abs/2306.15521"
+  - text: "Kienzler, R., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. <i>IEEE International Conference on Big Data.</i>"
+    url: "https://arxiv.org/abs/2309.02094"
+  - text: "Jakubik, J., Hemmer, P., Voessing, M., Blumenstiel, B., Bartos, A., & Mohr, K. (2022). Designing a Human-in-the-Loop System for Object Detection in Floor Plans. <i>Proceedings of the AAAI Conference on Artificial Intelligence.</i>"
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/21522"
+  - text: "Jakubik, J., Blumenstiel, B., Voessing, M., & Hemmer, P. (2022). Instance Selection Mechanisms for Human-in-the-Loop Systems in Few-Shot Learning. <i>International Conference on Wirtschaftsinformatik.</i>"
+    url: "https://arxiv.org/abs/2207.06835"
+
+skills:
+  advanced: Python, Deep Leanring, Computer Vision, German, English, PowerPoint, Project Management, Design Thinking
+  basic: Docker, Kubernetes, Kubeflow, Travis CI, Shell, R
