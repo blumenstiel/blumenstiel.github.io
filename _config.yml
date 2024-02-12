@@ -86,12 +86,18 @@ projects:
   - Topic modeling of scientific paper using nltk and genism (Bachelor’s thesis)
 
 work:
-  - title: Intern, AI for Climate Impact, IBM Research
-    time: 08/2023 - present
+  - title: Research Scientist, AI for Climate Impact, IBM Research
+    time: 02/2023 - present
     tasks:
-      - Deploying and Applying MLOps tools and pipelines
-      - Developing the data pipeline for a geospatial ML platform and the foundation model pretraining
+      - Research on geospatial foundation models for multi-spatial and multi-modal satellite data
+      - Developing the data pipeline for a geospatial ML platform and foundation model pre-training
+
+  - title: Intern, AI for Climate Impact, IBM Research
+    time: 08/2023 - 02/2023
+    tasks:
+      - Deploying and applying MLOps tools and pipelines
       - Developing the CLAIMED Component Compiler (C3) for the CLAIMED project
+      - Experiments with remote sensing image retrieval using geospatial foundation models
 
   - title: Junior Researcher, Applied AI in Services Lab, KIT
     time: 05/2020 - 04/2022
