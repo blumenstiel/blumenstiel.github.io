@@ -67,10 +67,13 @@ social:
 
 # Resume
 aboutme:
-  - Hello! I'm Benedikt — an open-minded individual passionate about machine learning, innovation, sustainability. During my studies, I focused on computer vision, natural language processing, and time series forecasting. Now at IBM Research, I contribute to the Team AI for Climate Impact and delve into MLOps. Eager to connect and share experiences in the intersection of machine learning research and sustainability.
+  - Hello! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, sustainability. I am working at the IBM Research Zurich lab in the AI for Climate Impact Team. We build foundation models for earth observation and work on climate-related applications using satellite data. Eager to connect and share experiences in the intersection of machine learning and sustainability.
   - Looking forward to connect with you!
 
 selected:
+  - title: Remote Sensing Image Retrieval
+    text: Embeddings of Geospatial Foundation Models (GeoFMs) enable simple but accurate content-based image retrieval of remote sensing images. We tested the GeoFM Prithvi (IBM-NASA) on two challenging datasets with multi-spectral satellite images and outperformed common computer vision models by a large margin. Check out our <a href=https://github.com/IBM/remote-sensing-image-retrieval>repository</a> for more details.
+    url: https://github.com/IBM/remote-sensing-image-retrieval
   - title: MESS Benchmark
     text: Holistic benchmarks allow a robust quantitative comparison of model architectures. However, such evaluation practice covering a wide range of real-world applications is lacking for multi-modal (i.e., text-to-image) zero-shot semantic segmentation tasks. Thus, our motivation to compose the <b>Multi-domain Evaluation of Semantic Segmentation (MESS)</b> benchmark, which consists of 22 datasets for varying application domains. More details can be found on our <a href=https://blumenstiel.github.io/mess-benchmark>website</a>.
     url: https://blumenstiel.github.io/mess-benchmark/
@@ -79,7 +82,8 @@ selected:
     url: https://github.com/claimed-framework/c3/blob/main/GettingStarted.md
 
 projects:
-  - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or ZegFormer on specialized downstream tasks like satellite imagery (Master’s thesis)
+  - Multi-modal foundation models for earth observation (<a href=https://fast-eo.webflow.io>FAST-EO</a>)
+  - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or SAM on specialized downstream tasks like satellite imagery (Master’s thesis)
   - Object detection in construction plans using Faster-RCNN and Tensorflow
   - Extremity X-ray image classification with Vision Transformers using PyTorch
   - Electricity grid load forecasting with AutoML frameworks including NeuralProphet and Vertex AI
@@ -135,6 +139,8 @@ education:
       - Focus on digital services and business strategy
 
 publications:
+  - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2023). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
+    url: "https://arxiv.org/abs/2403.02059"
   - text: "Blumenstiel, B., Jakubik, J., Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. <i>Advances in Neural Information Processing Systems.</i>"
     url: "https://arxiv.org/abs/2306.15521"
   - text: "Kienzler, R., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. <i>IEEE International Conference on Big Data.</i>"
@@ -145,5 +151,5 @@ publications:
     url: "https://arxiv.org/abs/2207.06835"
 
 skills:
-  advanced: Python, Deep Leanring, Computer Vision, German, English, PowerPoint, Project Management, Design Thinking
-  basic: Docker, Kubernetes, Kubeflow, Travis CI, Shell, R
+  advanced: Python, Deep Learning, Computer Vision, Data processing, German, English, PowerPoint, Design Thinking
+  basic: Docker, Kubernetes, Kubeflow, OpenShift, Travis CI, R
