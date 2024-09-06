@@ -57,18 +57,18 @@ social:
     share_title:
     share_link:
 
-  - icon:	twitter
-    url:	https://twitter.com/beneblumenstiel
-    desc:   Twitter
-    share_url:
-    share_title:
-    share_link:
+#  - icon:	twitter
+#    url:	https://twitter.com/beneblumenstiel
+#    desc:   Twitter
+#    share_url:
+#    share_title:
+#    share_link:
 
 
 # Resume
 aboutme:
-  - Hello! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, sustainability. I am working at the IBM Research Zurich lab in the AI for Climate Impact Team. We build foundation models for earth observation and work on climate-related applications using satellite data. Eager to connect and share experiences in the intersection of machine learning and sustainability.
-  - Looking forward to connect with you!
+  - Hello everyone! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, and sustainability. I work in the AI for Climate Impact Team at the IBM Research Zurich. We build foundation models for earth observation and work on climate-related applications using satellite data. Eager to share ideas and experiences in the intersection of machine learning and sustainability.
+  - Looking forward to connecting with you!
 
 selected:
   - title: Remote Sensing Image Retrieval
@@ -83,7 +83,7 @@ selected:
 
 projects:
   - Multi-modal foundation models for earth observation (<a href=https://fast-eo.webflow.io>FAST-EO</a>)
-  - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or SAM on specialized downstream tasks like satellite imagery (Master’s thesis)
+  - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or SAM on domain-specific downstream tasks (Master’s thesis)
   - Object detection in construction plans using Faster-RCNN and Tensorflow
   - Extremity X-ray image classification with Vision Transformers using PyTorch
   - Electricity grid load forecasting with AutoML frameworks including NeuralProphet and Vertex AI
@@ -91,13 +91,13 @@ projects:
 
 work:
   - title: Research Scientist, AI for Climate Impact, IBM Research
-    time: 02/2023 - present
+    time: 02/2024 - present
     tasks:
       - Research on geospatial foundation models for multi-spatial and multi-modal satellite data
       - Developing the data pipeline for a geospatial ML platform and foundation model pre-training
 
   - title: Intern, AI for Climate Impact, IBM Research
-    time: 08/2023 - 02/2023
+    time: 08/2023 - 02/2024
     tasks:
       - Deploying and applying MLOps tools and pipelines
       - Developing the CLAIMED Component Compiler (C3) for the CLAIMED project
