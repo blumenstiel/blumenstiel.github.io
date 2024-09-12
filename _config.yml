@@ -93,7 +93,7 @@ work:
   - title: Research Scientist, AI for Climate Impact, IBM Research
     time: 02/2024 - present
     tasks:
-      - Research on geospatial foundation models for multi-spatial and multi-modal satellite data
+      - Research on pre-training of multi-satellite and multi-modal geospatial foundation models
       - Developing the data pipeline for a geospatial ML platform and foundation model pre-training
 
   - title: Intern, AI for Climate Impact, IBM Research
@@ -139,7 +139,7 @@ education:
       - Focus on digital services and business strategy
 
 publications:
-  - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2023). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
+  - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2024). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2403.02059"
   - text: "Blumenstiel, B., Jakubik, J., Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. <i>Advances in Neural Information Processing Systems.</i>"
     url: "https://arxiv.org/abs/2306.15521"
