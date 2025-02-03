@@ -51,7 +51,7 @@ social:
     share_link:
 
   - icon:	google
-    url:	https://scholar.google.com/citations?user=UGynAs4AAAAJ&hl=de
+    url:	https://scholar.google.com/citations?user=sChSEKwAAAAJ&hl=de
     desc:	Google Scholar
     share_url:
     share_title:
@@ -71,6 +71,9 @@ aboutme:
   - Looking forward to connecting with you!
 
 selected:
+  - title: Prithvi EO 2.0
+    text: "Prithvi-EO-2.0 is the second generation EO foundation model jointly developed by IBM, NASA, and Jülich Supercomputing Centre. Prithvi-EO-2.0 is based on the ViT architecture, pretrained using a masked autoencoder (MAE) approach with two modifications: 3D positional embeddings for multi-temporal input and additional location and temporal embeddings to encode metadata. The models are pre-trained on 4.2M time series samples and released on <a href=https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL>HuggingFace</a>."
+    url: https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL
   - title: Remote Sensing Image Retrieval
     text: Embeddings of Geospatial Foundation Models (GeoFMs) enable simple but accurate content-based image retrieval of remote sensing images. We tested the GeoFM Prithvi (IBM-NASA) on two challenging datasets with multi-spectral satellite images and outperformed common computer vision models by a large margin. Check out our <a href=https://github.com/IBM/remote-sensing-image-retrieval>repository</a> for more details.
     url: https://github.com/IBM/remote-sensing-image-retrieval
@@ -90,7 +93,7 @@ projects:
   - Topic modeling of scientific paper using nltk and genism (Bachelor’s thesis)
 
 work:
-  - title: Research Scientist, AI for Climate Impact, IBM Research
+  - title: Research Software Engineer, AI for Climate Impact, IBM Research
     time: 02/2024 - present
     tasks:
       - Research on pre-training of multi-satellite and multi-modal geospatial foundation models
@@ -141,6 +144,8 @@ education:
 publications:
   - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2024). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2403.02059"
+  - text: "Szwarcman, D., Roy, S., Fraccaro, P., Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. arXiv preprint arXiv:2412.02732..</i>"
+    url: "https://arxiv.org/abs/2412.02732"
   - text: "Blumenstiel, B., Jakubik, J., Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. <i>Advances in Neural Information Processing Systems.</i>"
     url: "https://arxiv.org/abs/2306.15521"
   - text: "Kienzler, R., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. <i>IEEE International Conference on Big Data.</i>"
