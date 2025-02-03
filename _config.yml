@@ -14,7 +14,8 @@ logo: "/assets/images/profile.jpg"
 float_logo: false # true, false (default)
 
 # blog cover
-cover: "/assets/images/background_image.jpg"
+cover: "/assets/images/Benedikt.png"
+# cover: "/assets/images/background_image.jpg"
 # cover: "/assets/images/background_color.png"
 
 name: 'Benedikt Blumenstiel'
