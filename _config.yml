@@ -69,12 +69,12 @@ social:
 
 # Resume
 aboutme:
-  - Hello everyone! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, and sustainability. I work in the AI for Climate Impact Team at the IBM Research Zurich lab. We build foundation models for earth observation and work on climate-related applications using satellite data. Eager to share ideas and experiences in the intersection of machine learning and sustainability.
+  - Hello everyone! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, and sustainability. I work in the AI for Climate Impact Team at the IBM Research Zurich lab. We build foundation models for earth observation and work on climate-related applications using satellite data. Eager to share ideas and experiences in the intersection of machine learning and geospatial data.
   - Looking forward to connecting with you!
 
 selected:
   - title: Prithvi EO 2.0
-    text: "Prithvi-EO-2.0 is the second generation EO foundation model jointly developed by IBM, NASA, and Jülich Supercomputing Centre. Prithvi-EO-2.0 is based on the ViT architecture, pretrained using a masked autoencoder (MAE) approach with two modifications: 3D positional embeddings for multi-temporal input and additional location and temporal embeddings to encode metadata. The models are pre-trained on 4.2M time series samples and released on <a href=https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL>HuggingFace</a>."
+    text: "Prithvi-EO-2.0 is the second generation EO foundation model jointly developed by IBM and NASA. Prithvi-EO-2.0 is based on the ViT architecture, pretrained using a masked autoencoder (MAE) approach with two modifications: 3D positional embeddings for multi-temporal input and additional location and temporal embeddings to encode metadata. The models are pre-trained on 4.2M time series samples and released on <a href=https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL>HuggingFace</a>."
     url: https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL
   - title: Remote Sensing Image Retrieval
     text: Embeddings of Geospatial Foundation Models (GeoFMs) enable simple but accurate content-based image retrieval of remote sensing images. We tested the GeoFM Prithvi (IBM-NASA) on two challenging datasets with multi-spectral satellite images and outperformed common computer vision models by a large margin. Check out our <a href=https://github.com/IBM/remote-sensing-image-retrieval>repository</a> for more details.
@@ -99,7 +99,7 @@ work:
     time: 02/2024 - present
     tasks:
       - Research on pre-training of multi-satellite and multi-modal geospatial foundation models
-      - Developing the data pipeline for a geospatial ML platform and foundation model pre-training
+      - Developing data pipelines for a geospatial ML platform and foundation model pre-training
 
   - title: Intern, AI for Climate Impact, IBM Research
     time: 08/2023 - 02/2024
@@ -144,6 +144,8 @@ education:
       - Focus on digital services and business strategy
 
 publications:
+  - text: "Marimo, C. T., Blumenstiel, B., Nitsche, M., Jakubik, J., & Brunschwiler, T. (2025). Beyond the Visible: Multispectral Vision-Language Learning for Earth Observation. <i>arXiv preprint arXiv:2503.15969.</i>"
+    url: "https://arxiv.org/pdf/2503.15969"
   - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2024). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2403.02059"
   - text: "Szwarcman, D., Roy, S., Fraccaro, P., Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. <i>arXiv preprint arXiv:2412.02732.</i>"
@@ -158,5 +160,5 @@ publications:
     url: "https://arxiv.org/abs/2207.06835"
 
 skills:
-  advanced: Python, Deep Learning, Computer Vision, Data processing, German, English, PowerPoint, Design Thinking
-  basic: Docker, Kubernetes, Kubeflow, OpenShift, Travis CI, R
+  advanced: Python, deep learning, computer vision, data processing, geospatial data, NLP, German, English, project management, PowerPoint, Design Thinking
+  basic: Docker, Kubernetes, Kubeflow, OpenShift, Travis CI, R, Java

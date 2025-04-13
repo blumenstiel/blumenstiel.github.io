@@ -55,9 +55,24 @@ layout: default
           </div>
         </article>
       {% endfor %}
-
     </div>
 
+
+    <article class="post">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title">Publications</h2>
+        </header>
+          <section>
+              {% for publication in site.publications %}
+                <div>
+                    <p align="justify"><a href="{{ publication.url | prepend: site.baseurl }}" itemprop="url"  style="color:black; text-decoration:none">{{ publication.text }}</a></p>
+                </div>
+              {% endfor %}
+          </section>
+
+      </div>
+    </article>
 
     <h5 class="index-headline normal"><span>Résumé</span></h5>
 
@@ -105,25 +120,9 @@ layout: default
 
       </div>
       </article>
-
-      <article class="post">
-      <div class="article-item">
-        <header class="post-header">
-          <h2 class="post-title">Publications</h2>
-        </header>
-          <section>
-              {% for publication in site.publications %}
-                <div>
-                    <p align="justify"><a href="{{ publication.url | prepend: site.baseurl }}" itemprop="url"  style="color:black; text-decoration:none">{{ publication.text }}</a></p>
-                </div>
-              {% endfor %}
-          </section>
-
-      </div>
-      </article>
     </div>
 
-<!--
+
     <article class="post">
       <div class="article-item">
         <header class="post-header">
@@ -140,7 +139,7 @@ layout: default
 
       </div>
     </article>
--->
+
 
 <!--
     {% if site.tags.featured %}
