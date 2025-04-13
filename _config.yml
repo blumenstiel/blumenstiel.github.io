@@ -153,7 +153,7 @@ publications:
     url: "https://arxiv.org/abs/2412.02732"
   - text: "Blumenstiel, B., Jakubik, J., Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. <i>Advances in Neural Information Processing Systems.</i>"
     url: "https://arxiv.org/abs/2306.15521"
-  - text: "Kienzler, R., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. <i>IEEE International Conference on Big Data.</i>"
+  - text: "Kienzler, R., Tizzei, L. P. T., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S., Simumba, N., Kimura, D.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. <i>IEEE International Conference on Big Data.</i>"
     url: "https://arxiv.org/abs/2309.02094"
   - text: "Jakubik, J., Hemmer, P., Voessing, M., Blumenstiel, B., Bartos, A., & Mohr, K. (2022). Designing a Human-in-the-Loop System for Object Detection in Floor Plans. <i>Proceedings of the AAAI Conference on Artificial Intelligence.</i>"
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/21522"
