@@ -120,8 +120,6 @@ layout: default
 
       </div>
       </article>
-    </div>
-
 
     <article class="post">
       <div class="article-item">
@@ -129,16 +127,20 @@ layout: default
           <h2 class="post-title">Skills</h2>
         </header>
           <section>
-            <div>
-              Advanced: {{ site.skills.advanced }}
-            </div>
-            <div>
-              Basics: {{ site.skills.basic }}
-            </div>
+              <div style="margin-bottom: 1em;">
+                <strong style="display: inline-block; width: 80px;">Advanced:</strong>
+                <span>{{ site.skills.advanced }}</span>
+              </div>
+
+              <div>
+                <strong style="display: inline-block; width: 80px;">Basics:</strong>
+                <span>{{ site.skills.basic }}</span>
+              </div>
           </section>
 
       </div>
     </article>
+    </div>
 
 
 <!--
