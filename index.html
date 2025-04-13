@@ -122,23 +122,22 @@ layout: default
       </article>
 
     <article class="post">
-      <div class="article-item">
-        <header class="post-header">
+        <div class="article-item">
+        <header class="post-header" style="margin-bottom: 1em;">
           <h2 class="post-title">Skills</h2>
         </header>
-          <section>
-              <div style="margin-bottom: 1em;">
-                <strong style="display: inline-block; width: 80px;">Advanced:</strong>
-                <span>{{ site.skills.advanced }}</span>
-              </div>
+        <section>
+          <div style="margin-bottom: 1em; display: flex;">
+            <strong style="min-width: 90px;">Advanced:</strong>
+            <span style="line-height: 1.6;">{{ site.skills.advanced }}</span>
+          </div>
 
-              <div>
-                <strong style="display: inline-block; width: 80px;">Basics:</strong>
-                <span>{{ site.skills.basic }}</span>
-              </div>
-          </section>
-
-      </div>
+          <div style="display: flex;">
+            <strong style="min-width: 90px;">Basics:</strong>
+            <span style="line-height: 1.6;">{{ site.skills.basic }}</span>
+          </div>
+        </section>
+        </div>
     </article>
     </div>
 
