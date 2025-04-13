@@ -88,7 +88,7 @@ selected:
     url: https://github.com/claimed-framework/c3/blob/main/GettingStarted.md
 
 projects:
-  - Multi-modal foundation models for earth observation (<a href=https://fast-eo.webflow.io>FAST-EO</a>)
+  - Multi-modal foundation models and vision language models for earth observation (<a href=https://fast-eo.webflow.io>FAST-EO</a>)
   - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or SAM on domain-specific downstream tasks (Master’s thesis)
   - Object detection in construction plans using Faster-RCNN and Tensorflow
   - Extremity X-ray image classification with Vision Transformers using PyTorch
@@ -163,3 +163,4 @@ publications:
 skills:
   advanced: Python, deep learning, computer vision, data processing, geospatial data, NLP, German, English, project management, PowerPoint, Design Thinking
   basic: Docker, Kubernetes, Kubeflow, OpenShift, Travis CI, R, Java
+  packages: PyTorch, Lightning, TensorFlow, xarray, Numpy, Pandas, GeoPandas, TerraTorch, TorchGeo, and more
