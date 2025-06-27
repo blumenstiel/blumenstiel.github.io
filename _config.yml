@@ -148,15 +148,15 @@ education:
       - Focus on digital services and business strategy
 
 publications:
-  - text: "Jakubik, J., Yang, F., Blumenstiel, B., Scheurer, E., Sedona, R., Maurogiovanni, S. et al. (2025). TerraMind: Large-Scale Generative Multimodality for Earth Observation. <i>arXiv preprint arXiv:2504.11171.</i>"
+  - text: "Jakubik, J., Yang, F., Blumenstiel, B., Scheurer, E., Sedona, R., Maurogiovanni, S. et al. (2025). TerraMind: Large-Scale Generative Multimodality for Earth Observation. <i>IEEE/CVF International Conference on Computer Vision.</i>"
     url: "https://arxiv.org/abs/2504.11171"
-  - text: "Blumenstiel, B., Fraccaro, P., Marsocci, V., Jakubik, J., Maurogiovanni, S., Czerkawski, M. et al. (2025). TerraMesh: A Planetary Mosaic of Multimodal Earth Observation Data. <i>arXiv preprint arXiv:2504.11172.</i>"
+  - text: "Blumenstiel, B., Fraccaro, P., Marsocci, V., Jakubik, J., Maurogiovanni, S., Czerkawski, M. et al. (2025). TerraMesh: A Planetary Mosaic of Multimodal Earth Observation Data. <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops.</i>"
     url: "https://arxiv.org/abs/2503.15969"
-  - text: "Marti Escofet, F., Blumenstiel, B., Scheibenreif, L., Fraccaro, P., and Schindler, K. (2025). Fine-tune Smarter, Not Harder: Parameter-Efficient Fine-Tuning for Geospatial Foundation Models. <i>arXiv preprint arXiv:2504.17397.</i>"
+  - text: "Marti Escofet, F., Blumenstiel, B., Scheibenreif, L., Fraccaro, P., and Schindler, K. (2025). Fine-tune Smarter, Not Harder: Parameter-Efficient Fine-Tuning for Geospatial Foundation Models. <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, ECML PKDD.</i>"
     url: "https://arxiv.org/abs/2504.17397"
-  - text: "Marimo, C. T., Blumenstiel, B., Nitsche, M., Jakubik, J., & Brunschwiler, T. (2025). Beyond the Visible: Multispectral Vision-Language Learning for Earth Observation. <i>arXiv preprint arXiv:2503.15969.</i>"
+  - text: "Marimo, C. T., Blumenstiel, B., Nitsche, M., Jakubik, J., & Brunschwiler, T. (2025). Beyond the Visible: Multispectral Vision-Language Learning for Earth Observation. <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, ECML PKDD.</i>"
     url: "https://arxiv.org/abs/2503.15969"
-  - text: "Gomes, C., Blumenstiel, B., Almeida, J. L. D. S., de Oliveira, P. H., Fraccaro, P., Marti Escofet, F. et al. (2025). TerraTorch: The Geospatial Foundation Models Toolkit. <i>arXiv preprint arXiv:2503.20563.</i>"
+  - text: "Gomes, C., Blumenstiel, B., Almeida, J. L. D. S., de Oliveira, P. H., Fraccaro, P., Marti Escofet, F. et al. (2025). TerraTorch: The Geospatial Foundation Models Toolkit. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2503.20563"
   - text: "Szwarcman, D., Roy, S., Fraccaro, P., Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. <i>arXiv preprint arXiv:2412.02732.</i>"
     url: "https://arxiv.org/abs/2412.02732"
