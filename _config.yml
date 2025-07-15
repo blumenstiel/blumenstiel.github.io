@@ -156,6 +156,8 @@ publications:
     url: "https://arxiv.org/abs/2504.17397"
   - text: "Marimo, C. T.*, Blumenstiel, B.*, Nitsche, M., Jakubik, J., & Brunschwiler, T. (2025). Beyond the Visible: Multispectral Vision-Language Learning for Earth Observation. <i>Accepted at ECML.</i>"
     url: "https://arxiv.org/abs/2503.15969"
+  - text: "Blumenstiel, B., Braham, N. A. A., Albrecht, C. M., Maurogiovanni, S., & Fraccaro, P. (2025). Ssl4eo-s12 v1. 1: A multimodal, multiseasonal dataset for pretraining, updated. <i>arXiv preprint arXiv:2503.00168.</i>"
+    url: "https://arxiv.org/abs/2503.00168"
   - text: "Gomes, C., Blumenstiel, B., Almeida, J. L. D. S., de Oliveira, P. H., Fraccaro, P., Marti Escofet, F. et al. (2025). TerraTorch: The Geospatial Foundation Models Toolkit. <i>Accepted at IGARSS.</i>"
     url: "https://arxiv.org/abs/2503.20563"
   - text: "Szwarcman, D.*, Roy, S.*, Fraccaro, P.*, Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. <i>arXiv preprint arXiv:2412.02732.</i>"
@@ -181,3 +183,6 @@ talks:
   - Invited Talk "AI to Accelerate the Energy Transition and Adapt to Climate Change", AMLD 2025
   - Invited Talk "Transforming Geospatial Analysis with Foundation Models", AMLD 2024
   - Several workshops on Geospatial Foundation Models at ETH Summer School 2025, ESA-NASA workshop 2025, AMLD 2025
+
+awards:
+  - NASA Agency Group Award for Prithvi-EO
