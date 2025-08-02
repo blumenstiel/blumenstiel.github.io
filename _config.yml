@@ -67,7 +67,7 @@ social:
 
 # Resume
 aboutme:
-  - Hello everyone! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, and sustainability. I work in the AI for Climate Impact Team at the IBM Research Zurich lab. We build multi-modal foundation models for earth observation and work on climate-related applications using satellite data.
+  - Hello everyone! I'm Benedikt — an open-minded researcher passionate about machine learning, innovation, and sustainability. I work in the AI for Climate Impact Team at the IBM Research Zurich lab. We build multi-modal foundation models for Earth observation and work on climate-related applications using satellite data.
   - Looking forward to connecting with you!
 #  - Eager to share ideas and experiences in the intersection of machine learning and geospatial data.
 
@@ -89,7 +89,7 @@ selected:
 #    url: https://github.com/claimed-framework/c3/blob/main/GettingStarted.md
 
 projects:
-  - Multi-modal foundation models and vision language models for earth observation (<a href=https://fast-eo.webflow.io>FAST-EO</a>)
+  - Multi-modal foundation models and vision language models for Earth observation (<a href=https://fast-eo.webflow.io>FAST-EO</a>)
   - Generalization benchmark for Zero-Shot Semantic Segmentation evaluating models like OVSeg or SAM on domain-specific downstream tasks (Master’s thesis)
   - Object detection in construction plans using Faster-RCNN and Tensorflow
   - Extremity X-ray image classification with Vision Transformers using PyTorch
@@ -148,7 +148,7 @@ education:
 publications:
   - text: "Jakubik, J.*, Yang, F.*, Blumenstiel, B.*, Scheurer, E., Sedona, R., Maurogiovanni, S. et al. (2025). TerraMind: Large-Scale Generative Multimodality for Earth Observation. <i>Accepted at ICCV.</i>"  # IEEE/CVF International Conference on Computer Vision
     url: "https://arxiv.org/abs/2504.11171"
-  - text: "Blumenstiel, B., Fraccaro, P., Marsocci, V., Jakubik, J., Maurogiovanni, S., Czerkawski, M. et al. (2025). TerraMesh: A Planetary Mosaic of Multimodal Earth Observation Data. <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops.</i>"
+  - text: "Blumenstiel, B., Fraccaro, P., Marsocci, V., Jakubik, J., Maurogiovanni, S., Czerkawski, M. et al. (2025). TerraMesh: A Planetary Mosaic of Multimodal Earth Observation Data. In <i>Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops.</i>"
     url: "https://arxiv.org/abs/2503.15969"
   - text: "Marti Escofet, F.*, Blumenstiel, B.*, Scheibenreif, L., Fraccaro, P., and Schindler, K. (2025). Fine-tune Smarter, Not Harder: Parameter-Efficient Fine-Tuning for Geospatial Foundation Models. <i>Accepted at ECML.</i>"
     url: "https://arxiv.org/abs/2504.17397"
@@ -156,19 +156,19 @@ publications:
     url: "https://arxiv.org/abs/2503.15969"
   - text: "Blumenstiel, B., Braham, N. A. A., Albrecht, C. M., Maurogiovanni, S., & Fraccaro, P. (2025). Ssl4eo-s12 v1. 1: A multimodal, multiseasonal dataset for pretraining, updated. <i>arXiv preprint arXiv:2503.00168.</i>"
     url: "https://arxiv.org/abs/2503.00168"
-  - text: "Gomes, C., Blumenstiel, B., Almeida, J. L. D. S., de Oliveira, P. H., Fraccaro, P., Marti Escofet, F. et al. (2025). TerraTorch: The Geospatial Foundation Models Toolkit. <i>Accepted at IGARSS.</i>"
+  - text: "Gomes, C., Blumenstiel, B., Almeida, J. L. D. S., de Oliveira, P. H., Fraccaro, P., Marti Escofet, F. et al. (2025). TerraTorch: The Geospatial Foundation Models Toolkit. In <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2503.20563"
   - text: "Szwarcman, D.*, Roy, S.*, Fraccaro, P.*, Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. <i>arXiv preprint arXiv:2412.02732.</i>"
     url: "https://arxiv.org/abs/2412.02732"
-  - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2024). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
+  - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2024). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. In <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2403.02059"
-  - text: "Blumenstiel, B.*, Jakubik, J.*, Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. <i>Advances in Neural Information Processing Systems.</i>"
+  - text: "Blumenstiel, B.*, Jakubik, J.*, Kühne, H., & Vössing, M. (2023). What a MESS: Multi-Domain Evaluation of Zero-Shot Semantic Segmentation. In <i>Advances in Neural Information Processing Systems.</i>"
     url: "https://arxiv.org/abs/2306.15521"
-  - text: "Kienzler, R., Tizzei, L. P. T., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S., Simumba, N., Kimura, D.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. <i>IEEE International Conference on Big Data.</i>"
+  - text: "Kienzler, R., Tizzei, L. P. T., Blumenstiel, B., Nagy, Z. A., Mukkavilli, S. K., Schmude, J., Freitag, M., Behrendt, M., Civitarese, D. S., Simumba, N., Kimura, D.  & Hamann, H. (2023). TensorBank: Tensor Lakehouse for Foundation Model Training. In <i>IEEE International Conference on Big Data (BigData).</i>"
     url: "https://arxiv.org/abs/2309.02094"
-  - text: "Jakubik, J., Hemmer, P., Voessing, M., Blumenstiel, B., Bartos, A., & Mohr, K. (2022). Designing a Human-in-the-Loop System for Object Detection in Floor Plans. <i>Proceedings of the AAAI Conference on Artificial Intelligence.</i>"
+  - text: "Jakubik, J., Hemmer, P., Voessing, M., Blumenstiel, B., Bartos, A., & Mohr, K. (2022). Designing a Human-in-the-Loop System for Object Detection in Floor Plans. In <i>Proceedings of the AAAI Conference on Artificial Intelligence.</i>"
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/21522"
-  - text: "Jakubik, J., Blumenstiel, B., Voessing, M., & Hemmer, P. (2022). Instance Selection Mechanisms for Human-in-the-Loop Systems in Few-Shot Learning. <i>International Conference on Wirtschaftsinformatik.</i>"
+  - text: "Jakubik, J., Blumenstiel, B., Voessing, M., & Hemmer, P. (2022). Instance Selection Mechanisms for Human-in-the-Loop Systems in Few-Shot Learning. In <i>Wirtschaftsinformatik 2022 Proceedings.</i>"
     url: "https://arxiv.org/abs/2207.06835"
 
 skills:
