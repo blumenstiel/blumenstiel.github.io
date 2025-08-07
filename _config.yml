@@ -177,9 +177,9 @@ skills:
   packages: PyTorch, Lightning, TensorFlow, xarray, Numpy, Pandas, GeoPandas, TerraTorch, TorchGeo, and more
 
 talks:
-  - Keynote on "TerraMind", ESA-NASA International Workshop on AI Foundation Model for EO
+  - Keynote on "TerraMind", ESA-NASA International Workshop on AI Foundation Model for EO (video: https://youtu.be/6P4Hs8dWeBk?si=IzQlZOZxnfrAlW71&t=1992)
   - Invited Talk "AI to Accelerate the Energy Transition and Adapt to Climate Change", AMLD 2025
-  - Invited Talk "Transforming Geospatial Analysis with Foundation Models", AMLD 2024
+  - Invited Talk "Transforming Geospatial Analysis with Foundation Models", AMLD 2024 (https://youtu.be/QdLMTkyBZJk?si=-0In9dA4vm-JxAFI)
   - Several workshops on Geospatial Foundation Models at ETH Summer School 2025, ESA-NASA workshop 2025, AMLD 2025
 
 awards:
