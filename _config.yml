@@ -146,13 +146,15 @@ education:
       - Focus on digital services and business strategy
 
 publications:
-  - text: "Jakubik, J.*, Yang, F.*, Blumenstiel, B.*, Scheurer, E., Sedona, R., Maurogiovanni, S. et al. (2025). TerraMind: Large-Scale Generative Multimodality for Earth Observation. <i>Accepted at ICCV.</i>"  # IEEE/CVF International Conference on Computer Vision
+  - text: "Costa Watanabe, J.*, Wittmann, I.*, Blumenstiel, B., & Schindler, K. (2025). TerraCodec: Compressing Earth Observations. <i>arXiv preprint arXiv:2510.12670</i>."
+    url: "https://arxiv.org/abs/2510.12670"
+  - text: "Jakubik, J.*, Yang, F.*, Blumenstiel, B.*, Scheurer, E., Sedona, R., Maurogiovanni, S. et al. (2025). TerraMind: Large-Scale Generative Multimodality for Earth Observation. <i>IEEE/CVF International Conference on Computer Vision.</i>"
     url: "https://arxiv.org/abs/2504.11171"
   - text: "Blumenstiel, B., Fraccaro, P., Marsocci, V., Jakubik, J., Maurogiovanni, S., Czerkawski, M. et al. (2025). TerraMesh: A Planetary Mosaic of Multimodal Earth Observation Data. In <i>Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops.</i>"
     url: "https://arxiv.org/abs/2503.15969"
-  - text: "Marti Escofet, F.*, Blumenstiel, B.*, Scheibenreif, L., Fraccaro, P., and Schindler, K. (2025). Fine-tune Smarter, Not Harder: Parameter-Efficient Fine-Tuning for Geospatial Foundation Models. <i>Accepted at ECML.</i>"
+  - text: "Marti Escofet, F.*, Blumenstiel, B.*, Scheibenreif, L., Fraccaro, P., and Schindler, K. (2025). Fine-tune Smarter, Not Harder: Parameter-Efficient Fine-Tuning for Geospatial Foundation Models. In <i>Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML) (pp. 359-375).</i>"
     url: "https://arxiv.org/abs/2504.17397"
-  - text: "Marimo, C. T.*, Blumenstiel, B.*, Nitsche, M., Jakubik, J., & Brunschwiler, T. (2025). Beyond the Visible: Multispectral Vision-Language Learning for Earth Observation. <i>Accepted at ECML.</i>"
+  - text: "Marimo, C. T.*, Blumenstiel, B.*, Nitsche, M., Jakubik, J., & Brunschwiler, T. (2025). Beyond the Visible: Multispectral Vision-Language Learning for Earth Observation. In <i>Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML) (pp. 516-532).</i>"
     url: "https://arxiv.org/abs/2503.15969"
   - text: "Blumenstiel, B., Braham, N. A. A., Albrecht, C. M., Maurogiovanni, S., & Fraccaro, P. (2025). Ssl4eo-s12 v1. 1: A multimodal, multiseasonal dataset for pretraining, updated. <i>arXiv preprint arXiv:2503.00168.</i>"
     url: "https://arxiv.org/abs/2503.00168"
