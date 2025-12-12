@@ -146,6 +146,8 @@ education:
       - Focus on digital services and business strategy
 
 publications:
+  - text: "Basile, G.*, Jakubik, J.*, Blumenstiel, B., Brunschwiler, T., & Moreno, J. B. (2025). Quantizing Space and Time: Fusing Time Series and Images for Earth Observation. <i>arXiv preprint arXiv:2510.23118</i>."
+    url: "https://arxiv.org/abs/2510.23118"
   - text: "Costa Watanabe, J.*, Wittmann, I.*, Blumenstiel, B., & Schindler, K. (2025). TerraCodec: Compressing Earth Observations. <i>arXiv preprint arXiv:2510.12670</i>."
     url: "https://arxiv.org/abs/2510.12670"
   - text: "Jakubik, J.*, Yang, F.*, Blumenstiel, B.*, Scheurer, E., Sedona, R., Maurogiovanni, S. et al. (2025). TerraMind: Large-Scale Generative Multimodality for Earth Observation. <i>IEEE/CVF International Conference on Computer Vision.</i>"
@@ -160,7 +162,7 @@ publications:
     url: "https://arxiv.org/abs/2503.00168"
   - text: "Gomes, C., Blumenstiel, B., Almeida, J. L. D. S., de Oliveira, P. H., Fraccaro, P., Marti Escofet, F. et al. (2025). TerraTorch: The Geospatial Foundation Models Toolkit. In <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2503.20563"
-  - text: "Szwarcman, D.*, Roy, S.*, Fraccaro, P.*, Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. <i>arXiv preprint arXiv:2412.02732.</i>"
+  - text: "Szwarcman, D.*, Roy, S.*, Fraccaro, P.*, Gíslason, Þ. E., Blumenstiel, B., Ghosal, R., ... & Moreno, J. B. (2024). Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications. In <i>IEEE Transactions on Geoscience and Remote Sensing.</i>"
     url: "https://arxiv.org/abs/2412.02732"
   - text: "Blumenstiel, B., Moor, V., Kienzler, R., Brunschwiler, T. (2024). Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models. In <i>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS).</i>"
     url: "https://arxiv.org/abs/2403.02059"
@@ -185,4 +187,9 @@ talks:
   - Several workshops on Geospatial Foundation Models at ETH Summer School 2025, ESA-NASA workshop 2025, AMLD 2025
 
 awards:
+  - 2025 AGU Open Science Recognition Prize for the Prithvi-Geospatial AI Foundation Model Team
   - NASA Agency Group Award for Prithvi-EO
+  - IBM Outstanding research accomplishment for "From NASA to ESA and Beyond – Scaling IBM’s Leadership in AI for Science through Strategic Partnerships" as one of the developers of the TerraMind model
+  - IBM Research accomplishment for “Improvement and application of CLAIMED workflow and operator framework in IBM products” as the main contributor for the CLAIMED Component Compiler (C3)
+  - Received a Technical Collaboration Achievement Program (TCAP) award from IBM for open-source contributions to geospatial foundation models
+
