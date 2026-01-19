@@ -173,7 +173,7 @@ publications:
     url: "https://arxiv.org/abs/2207.06835"
 
 others:
-  programming: Python, PyTorch, HPC, Kubernetes, Docker, R, Java, Lightning, GeoPandas, Xarray, Rasterio, TerraTorch, TensorFlow, Numpy, Pandas,
+  programming: Python, PyTorch, HPC, Kubernetes, Docker, R, Java, Lightning, TensorFlow, GeoPandas, Xarray, Rasterio, Numpy, Pandas
   skills: English, German, deep learning, computer vision, data processing, geospatial data, project management, PowerPoint, design thinking
   awards: 2025 AGU Open Science Recognition Prize, NASA Agency Group Award 2025, and IBM Outstanding Research Accomplishment for the TerraMind and Prithvi foundation models
   certifications: Data Science Profession Certification - Experienced, issued by IBM; Technical Collaboration Achievement Program (TCAP) award from IBM for open-source contributions to geospatial foundation models
@@ -190,4 +190,5 @@ awards:
   - IBM Outstanding research accomplishment for "From NASA to ESA and Beyond – Scaling IBM’s Leadership in AI for Science through Strategic Partnerships" as one of the developers of the TerraMind model
   - IBM Research accomplishment for “Improvement and application of CLAIMED workflow and operator framework in IBM products” as the main contributor for the CLAIMED Component Compiler (C3)
   - Received a Technical Collaboration Achievement Program (TCAP) award from IBM for open-source contributions to geospatial foundation models
+  - Data Science Profession Certification - Experienced, issued by IBM
 
