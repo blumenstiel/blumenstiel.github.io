@@ -8,7 +8,7 @@ title: "Benedikt Blumenstiel"
 description: > # this means to ignore newlines until "email:"
    Geospatial AI, IBM Research | Based in Zurich
 
-email: benedikt.blumenstiel@live.com
+email: benedikt.blumenstiel@gmail.com
 #blog logo
 logo: "/assets/images/profile.jpg"
 float_logo: false # true, false (default)
@@ -66,6 +66,9 @@ selected:
   - title: TerraMind
     text: "TerraMind is the first multimodal any-to-any generative foundation model for Earth Observation jointly developed by IBM and ESA. TerraMind uses a dual-scale transformer-based encoder-decoder architecture, simultaneously processing pixel-level and token-level data. The model was pre-trained on 500B tokens from 9M spatio-temporally aligned multimodal samples from the TerraMesh dataset and is available on <a href=https://huggingface.co/ibm-esa-geospatial>HuggingFace</a>."
     url: https://huggingface.co/ibm-esa-geospatial
+  - title: TerraTorch
+    text: "<a href=https://terrastackai.github.io/terratorch/stable/>TerraTorch</a> is an open-source toolkit for fine-tuning geospatial foundation models. Built on PyTorch Lightning and TorchGeo, it provides a modular framework for working with state-of-the-art models like Prithvi, TerraMind, and Clay. With ready-to-use tasks for segmentation, classification, and regression, TerraTorch makes it easy to develop and deploy geospatial AI applications—from research prototypes to enterprise solutions."
+    url: https://terrastackai.github.io/terratorch/stable/
   - title: Prithvi EO 2.0
     text: "Prithvi-EO-2.0 is the second generation EO foundation model jointly developed by IBM and NASA. Prithvi-EO-2.0 is based on the ViT architecture, pretrained using a masked autoencoder (MAE) approach with two modifications: 3D positional embeddings for multi-temporal input and additional location and temporal embeddings to encode metadata. The models are pre-trained on 4.2M time series samples and released on <a href=https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL>HuggingFace</a>."
     url: https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL
@@ -91,27 +94,28 @@ work:
   - title: Research Software Engineer, AI for Climate Impact, IBM Research
     time: 02/2024 - present
     tasks:
-      - Research on pre-training of multi-satellite and multi-modal geospatial foundation models
-      - Developing data pipelines for a geospatial ML platform and foundation model pre-training
+      - Built TerraMind, the leading EO foundation model on PANGAEA benchmark, using multimodal token prediction
+      - Enabled large-scale EO pre-training and improved wildfire and flooding fine-tuning by curating multimodal datasets (TerraMesh, ImpactMesh)
+      - Developed MS-CLIP, a multispectral vision-language EO model, with 7 pp. accuracy gains compared to RGB-only models using MLLM-generated captions
+      - Applied EO embeddings from Prithvi to remote sensing image retrieval, outperforming general computer vision models by 6 pp. mAP
+      - Increased external adoption to 500k+ model downloads by open-sourcing the TerraMind and Prithvi models, integrating them in a easy-to-use manner into the TerraTorch package, and promoting them through talks and webinars
 
   - title: Intern, AI for Climate Impact, IBM Research
     time: 08/2023 - 02/2024
     tasks:
-      - Deploying and applying MLOps tools and pipelines
-      - Developing the CLAIMED Component Compiler (C3) for the CLAIMED project
-      - Experiments with remote sensing image retrieval using geospatial foundation models
+      - Curated a 4.2M time series dataset for the Prithvi 2.0 pre-training, resulting in +8 pp. downstream task performance compared to the previous version, by using diverse sampling strategy based on land-cover and bioregions
+      - Developed data pipelines for automated data fetching of missing inputs and faster data loading in the IBM GEO Studio, a low-code GeoAI webapp
 
   - title: Junior Researcher, Applied AI in Services Lab, KIT
     time: 05/2020 - 04/2022
     tasks:
-      - Research about human-AI collaboration and machine learning, with a focus on few-shot learning
-      - Developed AI applications for a AI project in the AEC industry
-      - Worked with multiple computer vision models and deployed them on high performance clusters
+      - Published insights on human–AI collaboration by studying interactive few-shot learning in computer vision
+      - Trained few-shot object detection models for first-of-their-kind AEC applications using TensorFlow
 
   - title: Design Thinking project, KIT & HUK Coburg
     time: 10/2019 - 06/2020
     tasks:
-      - Used design thinking to develop user-centered innovations and prototypes for retirement saving
+      - Used design thinking to develop user-centered, digital innovations and prototypes for retirement saving
 
   - title: Intern, R&D Strategy, AUDI AG
     time: 07/2017 - 02/2018
@@ -125,6 +129,7 @@ education:
     time: 10/2019 - 04/2023
     text:
       - Focus on machine learning and service innovation
+      - Thesis on multi-domain adaptation of zero-shot semantic segmentation
 
   - title: Exchange, Norwegian University of Science and Technology
     time: 01/2021 - 06/2021
@@ -135,6 +140,7 @@ education:
     time: 10/2015 - 09/2019
     text:
       - Focus on digital services and business strategy
+      - Thesis on large-scale topic modeling of scientific papers using NLP
 
 publications:
   - text: "Basile, G.*, Jakubik, J.*, Blumenstiel, B., Brunschwiler, T., & Moreno, J. B. (2025). Quantizing Space and Time: Fusing Time Series and Images for Earth Observation. <i>arXiv preprint arXiv:2510.23118</i>."
@@ -166,10 +172,11 @@ publications:
   - text: "Jakubik, J., Blumenstiel, B., Voessing, M., & Hemmer, P. (2022). Instance Selection Mechanisms for Human-in-the-Loop Systems in Few-Shot Learning. In <i>Wirtschaftsinformatik 2022 Proceedings.</i>"
     url: "https://arxiv.org/abs/2207.06835"
 
-skills:
-  advanced: Python, deep learning, computer vision, data processing, geospatial data, NLP, German, English, project management, PowerPoint, Design Thinking
-  basic: Docker, Kubernetes, Kubeflow, OpenShift, Travis CI, R, Java
-  packages: PyTorch, Lightning, TensorFlow, xarray, Numpy, Pandas, GeoPandas, TerraTorch, TorchGeo, and more
+others:
+  programming: Python, PyTorch, HPC, Kubernetes, Docker, R, Java, Lightning, GeoPandas, Xarray, Rasterio, TerraTorch, TensorFlow, Numpy, Pandas,
+  skills: English, German, deep learning, computer vision, data processing, geospatial data, project management, PowerPoint, design thinking
+  awards: 2025 AGU Open Science Recognition Prize, NASA Agency Group Award 2025, and IBM Outstanding Research Accomplishment for the TerraMind and Prithvi foundation models
+  certifications: Data Science Profession Certification - Experienced, issued by IBM; Technical Collaboration Achievement Program (TCAP) award from IBM for open-source contributions to geospatial foundation models
 
 talks:
   - Keynote on "TerraMind", ESA-NASA International Workshop on AI Foundation Model for EO (video: https://youtu.be/6P4Hs8dWeBk?si=IzQlZOZxnfrAlW71&t=1992)
